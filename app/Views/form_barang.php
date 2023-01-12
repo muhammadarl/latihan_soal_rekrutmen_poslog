@@ -27,21 +27,21 @@
                         <div class="d-flex flex-column mb-3">
                             <div class="form-floating mb-3">
                                 <input type="number" class="form-control" min=0 id="floatingInput"
-                                    placeholder="Masukan angka" value="<?= old('berat');?>" name="berat" required>
+                                    placeholder="Masukan angka" step="0.01" value="<?= old('berat');?>" name="berat" required>
                                 <label for="floatingInput">Berat barang(kg)</label>
                             </div>
                             <div class="form-floating mb-3">
-                                <input type="number" class="form-control" name="panjang" value="<?= old('panjang');?> min=0 id="floatingInput"
+                                <input type="number" class="form-control" step="0.01" name="panjang" value="<?= old('panjang');?> min=0 id="floatingInput"
                                     placeholder="Masukan angka" required>
                                 <label for="floatingInput">Panjang barang(cm)</label>
                             </div>
                             <div class="form-floating mb-3">
-                                <input type="number" class="form-control" name="tinggi" value="<?= old('tinggi');?>"  min=0 id="floatingInput"
+                                <input type="number" class="form-control" step="0.01" name="tinggi" value="<?= old('tinggi');?>"  min=0 id="floatingInput"
                                     placeholder="Masukan angka" required>
                                 <label for="floatingInput">tinggi barang(cm)</label>
                             </div>
                             <div class="form-floating mb-3">
-                                <input type="number" class="form-control" name="lebar" value="<?= old('lebar');?>" min=0 id="floatingInput"
+                                <input type="number" class="form-control" step="0.01" name="lebar" value="<?= old('lebar');?>" min=0 id="floatingInput"
                                     placeholder="Masukan angka" required>
                                 <label for="floatingInput">lebar barang(cm)</label>
                             </div>
